@@ -1,6 +1,6 @@
 
 
-This is my repo for *Data Structures and Algrorithms*
+This is my repo for *Data Structures and Algrorithms* course of the third semester (2nd Year).
 
 
 <!---
