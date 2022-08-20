@@ -1,3 +1,5 @@
+#Both problems 1 and 2 are similar and hence the same code
+
 #include <iostream>
 using namespace std;
 
