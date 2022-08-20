@@ -10,8 +10,10 @@ int main()
     // Subtracting the numbers till they become equal.
     while (a != b)
     {
-        if (a > b) a = a - b;
-        else if (a < b) b = b - a; 
+        if (a > b) 
+            a = a - b;
+        else if (a < b)
+            b = b - a; 
     }
     cout << a;
     
