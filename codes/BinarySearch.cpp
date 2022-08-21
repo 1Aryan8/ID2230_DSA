@@ -13,11 +13,11 @@ int main()
     cout << "result "<<result;
     if (result == -1)
     {  
-     cout << "Element is not present in the array";
+        cout << "Element is not present in the array";
     }
     else
     {
-     cout << "Element found " << result;
+        cout << "Element found at " << result << endl;
     }  
     return 0;
 }
@@ -29,7 +29,7 @@ int binarySearch(int arr[], int l, int r, int x)
     //int low, high;
     while(l <= r)
     {
-        cout<<"l " << l<<" r "<<r << endl;
+        //cout<<"l " << l<<" r "<<r << endl;
         int mid = l + (r-l)/2;
         if(x > arr[mid])
         {
